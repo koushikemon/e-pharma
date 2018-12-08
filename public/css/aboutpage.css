@@ -1,0 +1,135 @@
+/* about_part css start */
+.about_part{
+    padding: 60px 0px 0px;
+}
+.common_heading{
+    text-align: center;
+}
+.common_heading h2{
+    color: #353535;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.common_heading img{
+    position: relative;
+    left:-2%;
+    top: -10px;
+    margin-bottom: 40px;
+}
+
+.about_img{
+    width: 385px;
+    float: left;
+    margin-right: 15px;
+}
+.about_img img{
+    display:block;
+      width: 385px;
+}
+.about_content{
+    float: left;
+    width: 545px;
+    margin-left: 15px;
+}
+.about_content p{
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    color: #555555;
+    text-align: left;
+    line-height: 18px;
+}
+/* about_part css end */
+
+
+/* team_part start */
+.team_part{
+    padding-top: 60px;
+}
+.team_part .common_heading img {
+	left: -1.5%;
+}
+.team_main{
+    width: 350px;
+    margin: 0px 10px;
+    float: left;
+    text-align: center;
+}
+.team_main h4{
+    color: #353535;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 5px;
+    padding-top: 30px;
+    transition: all linear .3s;
+}
+.team_main:hover h4{
+    color: #5bc5f4;
+    transition: all linear .3s;
+}
+.team_main:hover .team_img{
+    box-shadow: 0 0 5px #000;
+}
+.team_main p{
+    
+    color: #555555;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+   
+}
+
+.team_img{
+    position: relative;
+}
+.team_img img{
+    display: block;
+    width: 100%;
+}
+.overlay_team{
+    position: absolute;
+    left:0%;
+    top: 0;
+    height: 100%;
+    width: 35%;
+    background: rgba(5, 5, 5, 0.66);
+    opacity: 0;
+    transition: all linear .3s;
+}
+.overlay_team ul{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.overlay_team ul li a{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin-top: 10px;
+    transition: all linear .3s;
+}
+.overlay_team ul li a i{
+    line-height: 35px;
+    font-size: 18px;
+    color: #fff;
+}
+.team_main:hover .overlay_team{
+    transition: all linear .3s;
+    opacity: 1;
+    left: 65%;
+} 
+.overlay_team ul li:hover a{
+    background: #5bc5f4;
+     transition: all linear .3s;
+    border-color: #5bc5f4;
+}  
+/* team_part end */
